@@ -175,8 +175,18 @@ color: #cabea0 ;
     color:#cabea0;
     font-size: medium;
 }
+hr{
+    display: none;
+}
+.hr-bottom{
+    margin-top: 3px;
+}
 /* 820px */
-
+@media only screen and (max-width:1000px){
+    .home{
+        background-size: auto;
+    }
+}
 @media only screen and (max-width:786px){
     i{
         display: block!important;
@@ -251,6 +261,9 @@ color: #cabea0 ;
     .footer_links a{
         font-size: small;
         cursor: pointer;
+    }
+    hr{
+        display: block;
     }
 }
 
