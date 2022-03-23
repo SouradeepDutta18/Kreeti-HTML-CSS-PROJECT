@@ -20,6 +20,19 @@ nav{
     height: 90px;
     padding: 20px;
 }
+.nav_header a{
+    flex: 1;
+    text-align: center;
+}
+i{
+    align-self: flex-end;
+    margin-bottom: 4px;
+    display: none!important;
+}
+.fa{
+font-size: 20px!important;
+color: #cabea0 ;
+}
 .nav_body{
     min-height: 37px;
     /* padding: 5px; */
@@ -29,6 +42,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .nav_links{
     width: 100%;
@@ -164,6 +178,9 @@ nav{
 /* 820px */
 
 @media only screen and (max-width:786px){
+    i{
+        display: block!important;
+    }
     .about{
         text-align:center;
     }
@@ -181,6 +198,12 @@ nav{
     }
     .nav_body{
         padding: 0;
+        display: none;
+        border-top: none;
+        border-bottom: none;
+    }
+    .active{
+        display: block;
     }
     .about_welcome div{
         line-height: 20px;
