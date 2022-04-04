@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +8,12 @@
 body{
     min-height: 100vh;
     background-color: black;
-    font-family: sans-serif;
+    
   
 }
 nav{
     padding-bottom: 10px;
+    
 }
 .nav_header{
     display: flex;
@@ -125,6 +127,7 @@ color: #cabea0 ;
     background: linear-gradient(to bottom,#f4d997,#5c5656);
     border: none;
     font-weight: bold;
+    margin-top: 10px;
     
 }
 .about_welcome div{
@@ -159,7 +162,7 @@ color: #cabea0 ;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 0;
+    padding: 10px 35px;
     gap:25px;
 }
 .footer_meta{
