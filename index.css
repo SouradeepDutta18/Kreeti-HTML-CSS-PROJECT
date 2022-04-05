@@ -82,7 +82,7 @@ i {
   display: flex;
   gap: 25px;
   justify-content: center;
-  
+  align-items: flex-start;
   color: #cabea0;
   text-align: center;
   font-family: medium;
