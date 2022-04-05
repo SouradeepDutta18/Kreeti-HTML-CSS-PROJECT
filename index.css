@@ -82,12 +82,12 @@ i {
   display: flex;
   gap: 25px;
   justify-content: center;
-  align-items: flex-start;
+  align-items:center;
   color: #cabea0;
   text-align: center;
   font-family: medium;
 }
-.about h2 {
+.about h1 {
   font-size: larger;
 }
 
@@ -183,6 +183,9 @@ hr {
   .about_collections {
     justify-content: flex-start;
   }
+  .about {
+    align-items: flex-start;
+  }
 }
 @media only screen and (max-width: 576px) {
   i {
@@ -261,7 +264,7 @@ hr {
     flex-direction: column;
     font-size: 17px;
   }
-  .about h2 {
+  .about h1 {
     font-size: large;
   }
 
