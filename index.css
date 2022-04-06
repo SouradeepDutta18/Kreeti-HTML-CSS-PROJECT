@@ -212,8 +212,8 @@ hr {
 
   .home {
     background-size: 100%;
-
-    height: 552px;
+    padding-bottom: 56%;
+    height: auto;
   }
 
   .about_collections {
