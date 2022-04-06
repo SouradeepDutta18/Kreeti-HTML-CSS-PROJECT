@@ -29,7 +29,6 @@ nav {
 
 i {
   align-self: flex-end;
-
   display: none !important;
   cursor: pointer;
 }
@@ -204,7 +203,7 @@ hr {
   margin-top: 3px;
 }
 
-/* 820px */
+
 @media only screen and (max-width: 992px) {
   html {
     font-size: 78%;
@@ -213,9 +212,9 @@ hr {
   .home {
     background-size: 100%;
     height: auto;
-    padding-bottom: 56%; 
-    
-    
+    padding-bottom: 56%;
+
+
   }
 
   .about_collections {
