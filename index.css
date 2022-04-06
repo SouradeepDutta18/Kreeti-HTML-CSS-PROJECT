@@ -4,13 +4,16 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
   min-height: 100vh;
   background-color: black;
 }
+
 nav {
   padding-bottom: 10px;
 }
+
 .nav_header {
   display: flex;
   justify-content: center;
@@ -18,20 +21,24 @@ nav {
   height: 90px;
   padding: 20px;
 }
+
 .nav_header a {
   flex: 1;
   text-align: center;
 }
+
 i {
   align-self: flex-end;
-  
+
   display: none !important;
   cursor: pointer;
 }
+
 .fa {
   font-size: 20px !important;
   color: #cabea0;
 }
+
 .nav_body {
   min-height: 37px;
   /* padding: 5px; */
@@ -42,9 +49,11 @@ i {
   justify-content: center;
   align-items: center;
 }
-#tgl{
-    display: none;
+
+#tgl {
+  display: none;
 }
+
 .nav_links {
   width: 100%;
   display: flex;
@@ -62,14 +71,17 @@ i {
   width: 18%;
   text-align: center;
 }
+
 .nav_links li.last {
   border-right: none;
 }
+
 .nav_links li a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
+
 .home {
   height: 95vh;
   background: url(banner.jpg);
@@ -77,17 +89,19 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .about {
   padding: 50px;
   /* min-height: 50vh; */
   display: flex;
   gap: 25px;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   color: #cabea0;
   text-align: center;
   font-size: medium;
 }
+
 .about h1 {
   font-size: larger;
 }
@@ -102,9 +116,11 @@ i {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .about_history div {
   line-height: 30px;
 }
+
 .about_welcome {
   min-height: 375px;
   width: min(100%, 300px);
@@ -115,6 +131,7 @@ i {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .about button {
   padding: 10px;
   background: linear-gradient(to bottom, #f4d997, #5c5656);
@@ -122,12 +139,15 @@ i {
   font-weight: bold;
   margin-top: 10px;
 }
+
 .about_welcome div {
   line-height: 30px;
 }
+
 .pattern {
   margin-top: 5px;
 }
+
 .history_body_bottom,
 .welcome_body_bottom {
   margin-top: 25px;
@@ -143,10 +163,12 @@ i {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .footer {
   background-color: rgb(14 14 14);
   font-size: small;
 }
+
 .footer_links {
   display: flex;
   justify-content: center;
@@ -154,72 +176,89 @@ i {
   padding: 10px 35px;
   gap: 25px;
 }
+
 .footer_meta {
   padding: 5px;
   color: white;
   text-align: center;
   font-size: 10px;
 }
+
 .company {
   color: #cabea0;
 }
+
 .footer a {
   text-decoration: none;
   color: #cabea0;
   font-size: small;
 }
+
 hr {
   display: none;
   height: 0px;
   margin: 0;
 }
+
 .hr-bottom {
   margin-top: 3px;
 }
+
 /* 820px */
 @media only screen and (max-width: 992px) {
-  html{
+  html {
     font-size: 78%;
   }
+
   .home {
-    background-size:100%;
+    background-size: 100%;
     height: 50vh;
   }
+
   .about_collections {
     justify-content: flex-start;
   }
-  .collections_img img{
+
+  .collections_img img {
     width: 100%;
 
   }
+
   .about {
     align-items: flex-start;
   }
 }
+
 @media only screen and (max-width: 576px) {
   i {
     display: block !important;
   }
+
   .about {
     text-align: center;
     align-items: center;
     padding: 7px;
   }
+
   .nav_links {
     flex-direction: column;
     gap: 10px;
     padding: 0;
     background-color: bisque;
   }
+
   .collections_img img {
     width: 100%;
   }
+
   .home {
     display: none;
   }
+
   .about_collections {
     justify-content: center;
   }
+
   .nav_body {
     padding: 0;
     display: none;
@@ -230,9 +269,11 @@ hr {
 
     transition: opacity 0.4s ease-in;
   }
+
   .about_collections {
     flex-direction: column-reverse;
   }
+
   .active {
     display: block;
     animation: fade-in;
@@ -240,31 +281,38 @@ hr {
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
   }
+
   @keyframes fade-in {
     from {
       opacity: 0;
     }
+
     to {
       opacity: 1;
     }
   }
+
   .about_welcome div,
   .about_history div {
     line-height: 24px;
   }
+
   .nav_links li {
     border: none;
     width: 100%;
     padding: 5px;
     background-color: bisque;
   }
+
   .nav_links li a {
     color: #814235;
   }
+
   .nav_links .link-active {
     background-color: black;
     color: #cabea0;
   }
+
   .nav_links .link-active a {
     color: #cabea0;
   }
@@ -273,6 +321,7 @@ hr {
     flex-direction: column;
     font-size: 17px;
   }
+
   .about h1 {
     font-size: large;
   }
@@ -286,22 +335,27 @@ hr {
     flex-wrap: wrap;
     gap: 25px;
   }
+
   .footer_links .items {
     min-width: 20px;
   }
+
   .footer_links a {
     font-size: small;
     cursor: pointer;
   }
+
   hr {
     display: block;
     border: 1px solid white;
   }
-  #tgl:checked + .nav_body{
-      display: block;
+
+  #tgl:checked+.nav_body {
+    display: block;
 
   }
-  label{
-      margin-top: 25px
+
+  label {
+    margin-top: 25px
   }
 }
