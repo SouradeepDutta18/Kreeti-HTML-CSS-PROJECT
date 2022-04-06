@@ -78,14 +78,14 @@ i {
 }
 .about {
   padding: 50px;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   display: flex;
   gap: 25px;
   justify-content: center;
   align-items:center;
   color: #cabea0;
   text-align: center;
-  font-family: medium;
+  font-size: medium;
 }
 .about h1 {
   font-size: larger;
@@ -165,7 +165,7 @@ i {
 .footer a {
   text-decoration: none;
   color: #cabea0;
-  font-size: medium;
+  font-size: small;
 }
 hr {
   display: none;
@@ -177,12 +177,19 @@ hr {
 }
 /* 820px */
 @media only screen and (max-width: 992px) {
+  html{
+    font-size: 78%;
+  }
   .home {
     background-size:100%;
     height: 50vh;
   }
   .about_collections {
     justify-content: flex-start;
+  }
+  .collections_img img{
+    width: 100%;
+
   }
   .about {
     align-items: flex-start;
