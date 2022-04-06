@@ -83,7 +83,7 @@ i {
 }
 
 .home {
-  height: 95vh;
+  height: 56vw;
   background: url(banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -214,6 +214,7 @@ hr {
     background-size: 100%;
     height: auto;
     padding-bottom: 56%; 
+    
     
   }
 
