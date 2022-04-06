@@ -195,8 +195,7 @@ i {
 
 hr {
   display: none;
-  height: 0px;
-  margin: 0;
+  border: 1px solid #cabea0;
 }
 
 .hr-bottom {
@@ -349,7 +348,6 @@ hr {
 
   hr {
     display: block;
-    border: 1px solid white;
   }
 
   #tgl:checked+.nav_body {
