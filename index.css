@@ -109,7 +109,6 @@ i {
   min-height: 375px;
   width: min(100%, 300px);
   flex: 1;
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -124,7 +123,6 @@ i {
   min-height: 375px;
   width: min(100%, 300px);
   flex: 1;
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -155,7 +153,6 @@ i {
 .about_collections {
   min-height: 375px;
   width: min(100%, 300px);
-
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -212,8 +209,6 @@ hr {
     background-size: 100%;
     height: auto;
     padding-bottom: 56%;
-
-
   }
 
   .about_collections {
@@ -222,7 +217,6 @@ hr {
 
   .collections_img img {
     width: 100%;
-
   }
 
   .about {
@@ -267,7 +261,6 @@ hr {
     border-bottom: none;
     width: 100%;
     position: absolute;
-
     transition: opacity 0.4s ease-in;
   }
 
@@ -329,7 +322,6 @@ hr {
 
   .footer_links {
     padding: 10px;
-
     display: flex;
     justify-content: center;
     align-items: center;
